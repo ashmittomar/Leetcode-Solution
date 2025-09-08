@@ -1,6 +1,5 @@
 class Solution(object):
     def maxProfit(self, prices):
-        #start
         if not prices:
             return 0
         
