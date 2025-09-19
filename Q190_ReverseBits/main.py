@@ -3,9 +3,9 @@ class Solution(object):
        
         result = 0
         for i in range(32):
-            result <<= 1         # shift result left
-            result |= (n & 1)    # copy the last bit of n
-            n >>= 1              # shift n right
+            result <<= 1         
+            result |= (n & 1)    # copy the last bit  n
+            n >>= 1              
         return result
 
 
