@@ -20,4 +20,4 @@ n = int(input("Enter a number: "))
 if is_happy(n):
     print(n, "is a Happy Number")
 else:
-    print(n, "is NOT a Happy Number")
+    print(n, "is NOT a Happy Number ")
