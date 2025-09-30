@@ -1,7 +1,6 @@
 
 class Solution(object):
     def isIsomorphic(self, s, t):
-        
         if len(s) != len(t):
             return False
 
@@ -28,6 +27,6 @@ t = input("Enter second string: ").strip()
 
 solution = Solution()
 if solution.isIsomorphic(s, t):
-    print("The strings are isomorphic.")
+    print("strings are isomorphic.")
 else:
-    print("The strings are NOT isomorphic.")
+    print("strings are NOT isomorphic.")
