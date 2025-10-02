@@ -14,6 +14,6 @@ if __name__ == "__main__":
     n = int(input("Enter a number: "))
     sol = Solution()
     if sol.isUgly(n):
-        print(f"{n} is an Ugly Number ✅")
+        print(f"{n} is an Ugly Number")
     else:
-        print(f"{n} is NOT an Ugly Number ❌")
+        print(f"{n} is NOT an Ugly Number")
