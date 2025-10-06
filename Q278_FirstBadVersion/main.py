@@ -14,6 +14,5 @@ class Solution(object):
 
 n = int(input("Enter total number of versions: "))
 bad = int(input("Enter the first bad version: "))
-#y
 obj = Solution()
 print("The first bad version is:", obj.firstBadVersion(n))
