@@ -1,4 +1,3 @@
-# Definition for a binary tree node
 class TreeNode(object):
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -8,10 +7,7 @@ class TreeNode(object):
 
 class Solution(object):
     def binaryTreePaths(self, root):
-        """
-        :type root: Optional[TreeNode]
-        :rtype: List[str]
-        """
+      
         def dfs(node, path, res):
             if not node:
                 return
@@ -27,7 +23,6 @@ class Solution(object):
         return result
 
 
-# Function to build a binary tree from level order input (like [1,2,3,null,5])
 def build_tree(values):
     if not values or values[0] == "null":
         return None
