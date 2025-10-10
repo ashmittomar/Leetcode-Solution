@@ -3,14 +3,11 @@ from collections import deque
 class MyStack(object):
 
     def __init__(self):
-        # Initialize two queues
         self.q1 = deque()
         self.q2 = deque()
 
     def push(self, x):
-        """
-        Push element x onto stack.
-        """
+        
         self.q2.append(x)
         while self.q1:
             self.q2.append(self.q1.popleft())
