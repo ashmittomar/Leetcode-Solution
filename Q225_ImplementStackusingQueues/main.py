@@ -29,9 +29,7 @@ class MyStack(object):
         return val
 
     def top(self):
-        """
-        Get the top element.
-        """
+        
         if not self.q1:
             print("Stack is empty!")
             return None
@@ -39,9 +37,7 @@ class MyStack(object):
         return self.q1[0]
 
     def empty(self):
-        """
-        Returns whether the stack is empty.
-        """
+       
         print("Stack is empty." if not self.q1 else "Stack is not empty.")
         return len(self.q1) == 0
 
