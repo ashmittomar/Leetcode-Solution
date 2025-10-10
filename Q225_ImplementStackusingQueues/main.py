@@ -18,9 +18,7 @@ class MyStack(object):
         print(f"Pushed {x}")
 
     def pop(self):
-        """
-        Removes the element on top of the stack and returns that element.
-        """
+        
         if not self.q1:
             print("Stack is empty! Cannot pop.")
             return None
