@@ -42,7 +42,7 @@ def tree_to_list(root):
             queue.append(node.right)
         else:
             result.append(None)
-    # remove trailing None values for cleaner output
+            
     while result and result[-1] is None:
         result.pop()
     return result
