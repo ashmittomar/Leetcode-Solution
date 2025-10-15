@@ -28,7 +28,6 @@ def build_tree(values):
                 node.right = kids.popleft()
     return nodes[0]
 
-# Helper function to print tree as list (level order)
 def tree_to_list(root):
     if not root:
         return []
@@ -42,7 +41,7 @@ def tree_to_list(root):
             queue.append(node.right)
         else:
             result.append(None)
-            
+
     while result and result[-1] is None:
         result.pop()
     return result
