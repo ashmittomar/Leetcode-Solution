@@ -15,7 +15,6 @@ class Solution:
         self.invertTree(root.right)
         return root
 
-# Helper function to build a binary tree from list input
 def build_tree(values):
     if not values:
         return None
