@@ -14,7 +14,7 @@ class Solution(object):
             slow = slow.next
             fast = fast.next.next
 
-        # Step 2: Reverse the second half
+        #Reverse the second half
         prev = None
         curr = slow
         while curr:
@@ -23,7 +23,7 @@ class Solution(object):
             prev = curr
             curr = nxt
 
-        # Step 3: Compare first half and reversed second half
+        #Compare first half and reversed second half
         first, second = head, prev
         while second:
             if first.val != second.val:
