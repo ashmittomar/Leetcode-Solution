@@ -35,7 +35,6 @@ class Solution(object):
 
 elements = list(map(int, input("Enter linked list elements separated by space: ").split()))
 
-# Build the linked list
 if not elements:
     head = None
 else:
