@@ -9,11 +9,7 @@ class NumArray(object):
             self.prefix.append(self.prefix[-1] + num)
 
     def sumRange(self, left, right):
-        """
-        :type left: int
-        :type right: int
-        :rtype: int
-        """
+        
         return self.prefix[right + 1] - self.prefix[left]
 
 
