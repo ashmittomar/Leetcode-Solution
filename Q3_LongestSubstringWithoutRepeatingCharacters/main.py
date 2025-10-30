@@ -11,7 +11,7 @@ class Solution(object):
             max_length = max(max_length, i - start + 1)
         
         return max_length
-#
+
 
 s = input("Enter a string: ")
 sol = Solution()
