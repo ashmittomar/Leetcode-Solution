@@ -11,9 +11,8 @@ class Solution(object):
             max_length = max(max_length, i - start + 1)
         
         return max_length
+#
 
-
-# user input
 s = input("Enter a string: ")
 sol = Solution()
 print("Length of longest substring without repeating characters:", sol.lengthOfLongestSubstring(s))
