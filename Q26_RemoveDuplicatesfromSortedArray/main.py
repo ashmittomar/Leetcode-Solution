@@ -20,7 +20,6 @@ class Solution(object):
         return k
 
 
-# -------- User Input and Execution --------
 nums = list(map(int, input("Enter sorted numbers separated by space: ").split()))
 solution = Solution()
 k = solution.removeDuplicates(nums)
