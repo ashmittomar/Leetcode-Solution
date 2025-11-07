@@ -1,12 +1,7 @@
 class Solution(object):
     def divide(self, dividend, divisor):
-        """
-        :type dividend: int
-        :type divisor: int
-        :rtype: int
-        """
+       
 
-        # Constants for 32-bit integer range
         INT_MAX = 2**31 - 1
         INT_MIN = -2**31
 
