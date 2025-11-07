@@ -11,7 +11,6 @@ class Solution(object):
         # Determine the sign of the result
         negative = (dividend < 0) != (divisor < 0)
 
-        # Work with positive numbers
         dividend, divisor = abs(dividend), abs(divisor)
 
         quotient = 0
