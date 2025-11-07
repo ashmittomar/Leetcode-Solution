@@ -15,7 +15,6 @@ class Solution(object):
         dividend, divisor = abs(dividend), abs(divisor)
 
         quotient = 0
-        # Subtract divisor multiples from dividend using bit shifts
         while dividend >= divisor:
             temp, multiple = divisor, 1
             while dividend >= (temp << 1):
