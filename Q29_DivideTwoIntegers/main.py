@@ -24,11 +24,9 @@ class Solution(object):
             dividend -= temp
             quotient += multiple
 
-        # Apply sign
         if negative:
             quotient = -quotient
 
-        # Return clamped value
         return max(min(quotient, INT_MAX), INT_MIN)
 
 
