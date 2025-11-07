@@ -8,7 +8,6 @@ class Solution(object):
         if dividend == INT_MIN and divisor == -1:
             return INT_MAX
 
-        # Determine the sign of the result
         negative = (dividend < 0) != (divisor < 0)
 
         dividend, divisor = abs(dividend), abs(divisor)
