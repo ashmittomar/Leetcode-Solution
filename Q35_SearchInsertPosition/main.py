@@ -8,8 +8,7 @@ class Solution(object):
         left, right = 0, len(nums) - 1
         
         while left <= right:
-            mid = (left + right) // 2  # fixed 'let' -> 'left'
-            
+            mid = (left + right) // 2 
             if nums[mid] == target:
                 return mid
             elif nums[mid] < target:
@@ -20,7 +19,6 @@ class Solution(object):
         return left
 
 
-# ---- For user input ----
 if __name__ == "__main__":
     nums = list(map(int, input("Enter sorted numbers separated by spaces: ").split()))
     target = int(input("Enter the target number: "))
