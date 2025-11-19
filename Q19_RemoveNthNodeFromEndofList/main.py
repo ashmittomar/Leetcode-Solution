@@ -5,7 +5,7 @@ class ListNode(object):
 
 
 class Solution(object):
-    def removeNtFromEnd(self, head, n):
+    def removeNthFromEnd(self, head, n):
         dummy = ListNode(0)
         dummy.next = head
 
