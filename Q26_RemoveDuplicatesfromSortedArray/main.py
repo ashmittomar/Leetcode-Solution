@@ -19,4 +19,4 @@ solution = Solution()
 k = solution.removeDuplicates(nums)
 
 print("Number of unique elements:", k)
-print("Array after removing duplicates:", nums[:k])
+print("Array after remoing duplicates:", nums[:k])
