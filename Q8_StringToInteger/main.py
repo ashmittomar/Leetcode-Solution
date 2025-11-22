@@ -28,6 +28,6 @@ class Solution(object):
 
 if __name__ == "__main__":
     user_input = input("Enter a string to convert to integer: ")
-    solution = Solion()
+    solution = Solution()
     result = solution.myAtoi(user_input)
     print("Converted integer:", result)
