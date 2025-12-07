@@ -13,7 +13,7 @@ class MyQueue(object):
 
     def peek(self):
         self.move_in_to_out()
-        return self.out_stack[-1]
+        return self._stack[-1]
 
     def empty(self):
         return not self.in_stack and not self.out_stack
