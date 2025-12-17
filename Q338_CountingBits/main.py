@@ -10,4 +10,4 @@ n = int(input("Enter a number: "))
 obj = Solution()
 result = obj.countBits(n)
 
-print("Result: ", result)
+print("Answer: ", result)
